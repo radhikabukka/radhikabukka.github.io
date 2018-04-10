@@ -1652,3 +1652,12 @@ p {
 /* ==========================================================
 ! CROSSBROWSER SOLUTIONS
 ========================================================== */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.resume-box{
+  min-height:100%;
+}
